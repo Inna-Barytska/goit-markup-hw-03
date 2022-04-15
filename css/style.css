@@ -61,7 +61,7 @@ h4 {
 }
 .container {
   margin: 0 auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -331,7 +331,9 @@ button {
   /* width: calc((100%-60px) / 3); */
   padding-bottom: 20px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .port-item:nth-child(3n) {
   margin-right: 0;
